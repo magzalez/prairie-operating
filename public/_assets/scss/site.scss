@@ -1216,7 +1216,6 @@ ul.social {
     .text {
         position: relative;
         z-index: 10;
-        max-width: 530px;
     }
 
     @include media-breakpoint-down(md) {
