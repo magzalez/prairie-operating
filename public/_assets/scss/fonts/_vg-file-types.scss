@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'vg-icons';
+    src: url('https://storage.googleapis.com/vendorgroup-assets/site/11283f54-891a-4936-b4bb-03b61a115adb/vg-icons.eot?e902wz');
+    src: url('https://storage.googleapis.com/vendorgroup-assets/site/11283f54-891a-4936-b4bb-03b61a115adb/vg-icons.eot?e902wz#iefix') format('embedded-opentype'),
+        url('https://storage.googleapis.com/vendorgroup-assets/site/11283f54-891a-4936-b4bb-03b61a115adb/vg-icons.ttf?e902wz') format('truetype'),
+        url('https://storage.googleapis.com/vendorgroup-assets/site/11283f54-891a-4936-b4bb-03b61a115adb/vg-icons.woff?e902wz') format('woff'),
+        url('https://storage.googleapis.com/vendorgroup-assets/site/11283f54-891a-4936-b4bb-03b61a115adb/vg-icons.svg?e902wz#vg-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="vg-icon-"],
+[class*=" vg-icon-"],
+.vg-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'vg-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: inherit;
+    vertical-align: -0.06521739em;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.vg-icon-doc:before {
+    content: "\e900";
+}
+
+.vg-icon-html:before {
+    content: "\e901";
+}
+
+.vg-icon-pdf:before {
+    content: "\e902";
+}
+
+.vg-icon-webcast:before {
+    content: "\e903";
+}
+
+.vg-icon-xls:before {
+    content: "\e904";
+}
+
+.vg-icon-zip:before {
+    content: "\e905";
+}

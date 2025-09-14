@@ -1,0 +1,135 @@
+// Colors
+$primary: #000;
+$secondary: #7bbb42;
+$tertiary: #3bb7dd;
+$dark-bg: $primary;
+$gray: #f8f8f8;
+$text-color: #555;
+$dark: #000;
+$link-color: $primary;
+$border-color: #d9d9d9;
+
+// Grid
+$grid-gutter-width: 1.875rem; // 30px
+
+// Fonts and basic typography
+$font-family-sans-serif: 'Lato', 'Helvetica', 'sans-serif';
+$heading-font-family: $font-family-sans-serif; 
+$line-height-base: 1.78;
+
+// Headings
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.5rem;
+$h4-font-size: 2.25rem;
+$h5-font-size: 2rem;
+$h6-font-size: 1.5rem;
+$headings-font-weight: 700;
+$headings-margin-bottom: 1.25rem;
+$headings-color: #1a1a1a;
+
+// Header
+$header-height: 7.75rem;
+$header-bg: #fff;
+
+// Nav
+$navbar-padding-y: 0;
+$navbar-light-color: $primary;
+$navbar-light-hover-color: $navbar-light-color;
+$navbar-light-active-color: $secondary;
+$navbar-light-disabled-color: rgba($dark, .3);
+$navbar-light-brand-color: $navbar-light-color;
+$navbar-light-brand-hover-color: $navbar-light-hover-color;
+
+$navbar-nav-link-padding-x: 0.625rem;
+$navbar-nav-link-padding-y: 1.05rem;
+$nav-link-font-size: 0.875rem;
+$nav-link-font-weight: 500;
+
+// Dropdown
+$dropdown-padding-y: 0;
+$dropdown-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+$dropdown-font-size: $nav-link-font-size;
+$dropdown-font-weight: $nav-link-font-weight;
+$dropdown-link-color: $navbar-light-color;
+$dropdown-link-hover-color: $navbar-light-hover-color;
+$dropdown-link-active-color: $navbar-light-active-color;
+$dropdown-link-active-bg: transparent;
+$dropdown-link-hover-bg: transparent;
+$dropdown-item-padding-y: 0.625rem;
+$dropdown-item-padding-x: 1.25rem;
+
+// Accordions
+$accordion-padding-y: 1.25rem;
+$accordion-padding-x: 1.875rem;
+$accordion-bg: transparent;
+$accordion-border-color: $border-color;
+$accordion-border-width: 0;
+$accordion-border-radius: 0;
+$accordion-inner-border-radius: 0;
+
+$accordion-body-padding-y: $accordion-padding-y;
+$accordion-body-padding-x: $accordion-padding-x;
+
+$accordion-button-padding-y: $accordion-padding-y;
+$accordion-button-padding-x: $accordion-padding-x;
+$accordion-button-color: $headings-color;
+$accordion-button-bg: transparent;
+$accordion-button-active-bg: $gray;
+$accordion-button-active-color: $primary;
+
+$accordion-button-focus-border-color: $accordion-border-color;
+$accordion-button-focus-box-shadow: none;
+
+$accordion-icon-width: 2.25rem;
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $primary;
+$accordion-icon-transition: transform .2s ease-in-out;
+$accordion-icon-transform: rotate(45deg);
+
+$accordion-button-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2236%22%20height%3D%2235%22%20viewBox%3D%220%200%2036%2035%22%20fill%3D%22none%22%3E%3Cline%20x1%3D%2217.5%22%20y1%3D%2234.707%22%20x2%3D%2217.5%22%20y2%3D%220.707031%22%20stroke%3D%22#{$accordion-icon-color}%22%2F%3E%3Cline%20x1%3D%221%22%20y1%3D%2217.207%22%20x2%3D%2235%22%20y2%3D%2217.207%22%20stroke%3D%22#{$accordion-icon-color}%22%2F%3E%3C%2Fsvg%3E");
+$accordion-button-active-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2236%22%20height%3D%2235%22%20viewBox%3D%220%200%2036%2035%22%20fill%3D%22none%22%3E%3Cline%20x1%3D%2217.5%22%20y1%3D%2234.707%22%20x2%3D%2217.5%22%20y2%3D%220.707031%22%20stroke%3D%22#{$accordion-icon-active-color}%22%2F%3E%3Cline%20x1%3D%221%22%20y1%3D%2217.207%22%20x2%3D%2235%22%20y2%3D%2217.207%22%20stroke%3D%22#{$accordion-icon-active-color}%22%2F%3E%3C%2Fsvg%3E");
+
+// Rounding
+$border-radius: 10px;
+
+// Pagination
+$pagination-font-size: 0.875rem;
+$pagination-color: #2f2f2f;
+$pagination-border-radius: 0;
+$pagination-border-color: $border-color;
+$pagination-active-border-color: $border-color;
+$pagination-active-color: #2f2f2f;
+$pagination-active-bg: $gray;
+$pagination-hover-color: #2f2f2f;
+
+// Modals
+$modal-lg: 870px;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 1,
+  2: $spacer * 2,
+  3: $spacer * 3,
+  4: $spacer * 4,
+  5: $spacer * 5,
+);
+
+// Tables
+$table-border-color: $border-color;
+$table-striped-bg: $gray;
+
+// Utilities
+$enable-negative-margins: true;
+
+$utilities: (
+  "font-size": (property: font-size,
+    class: fs,
+    values: (14: 0.875rem,
+      16: 1rem,
+      18: 1.125rem,
+      20: 1.5rem,
+    ))
+);
